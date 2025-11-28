@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuroscience Hub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        header {
+            background: rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 2rem 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        h1 {
+            color: white;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 1.1rem;
+        }
+        
+        main {
+            padding: 3rem 0;
+        }
+        
+        .hero {
+            background: white;
+            border-radius: 10px;
+            padding: 3rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+        
+        .hero h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+        
+        .hero p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-card h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        
+        footer {
+            background: rgba(0, 0, 0, 0.1);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🧠 Neuroscience Hub</h1>
+            <p class="subtitle">Exploring the complexities of the brain and nervous system</p>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <div class="hero">
+                <h2>Welcome to Neuroscience Hub</h2>
+                <p>
+                    Discover the fascinating world of neuroscience. From brain anatomy to cognitive psychology,
+                    our comprehensive resources are designed to deepen your understanding of the human mind and
+                    the intricate systems that drive our behavior and consciousness.
+                </p>
+                <p style="margin-top: 1rem;">
+                    Whether you're a student, researcher, or simply curious about how the brain works,
+                    you've come to the right place.
+                </p>
+            </div>
+            
+            <div class="features">
+                <div class="feature-card">
+                    <h3>📚 Resources</h3>
+                    <p>Comprehensive guides and articles on neuroscience topics</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🔬 Research</h3>
+                    <p>Latest findings and breakthroughs in neuroscience</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🎓 Learning</h3>
+                    <p>Educational materials for all levels of expertise</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Neuroscience Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
