@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background: linear-gradient(135deg, #f8e8e8, #e6e6f8);
+  color: #333;
+}
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f8d7d7, #e6e6f8);
+}
+.glass-panel {
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+button {
+  background: #ff7e5f;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.gallery {
+  padding: 60px;
+  text-align: center;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  width: 250px;
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.viewer {
+  padding: 60px;
+  text-align: center;
+}
+#brainCanvas {
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+}

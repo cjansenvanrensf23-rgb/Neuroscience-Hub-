@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Brain Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="glass-panel">
+      <h1>The Brain Gallery</h1>
+      <p>Explore the art and science of the human mind.</p>
+      <button onclick="scrollToGallery()">Explore</button>
+    </div>
+  </section>
+
+  <!-- Brain Gallery -->
+  <section class="gallery" id="gallery">
+    <h2>Brain Structures</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="images/cerebrum.jpg" alt="Cerebrum">
+        <h3>Cerebrum</h3>
+        <p>Responsible for thinking, memory, and decision-making.</p>
+      </div>
+      <div class="card">
+        <img src="images/cerebellum.jpg" alt="Cerebellum">
+        <h3>Cerebellum</h3>
+        <p>Controls movement and coordination.</p>
+      </div>
+      <div class="card">
+        <img src="images/brainstem.jpg" alt="Brainstem">
+        <h3>Brainstem</h3>
+        <p>Regulates basic life functions like breathing and heartbeat.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3D Brain Viewer -->
+  <section class="viewer">
+    <h2>Interactive Brain Model</h2>
+    <canvas id="brainCanvas"></canvas>
+  </section>
+
+  <!-- Knowledge Hub -->
+  <section class="knowledge">
+    <div class="login-panel glass-panel">
+      <h2>Join the Knowledge Hub</h2>
+      <input type="email" placeholder="Email">
+      <input type="password" placeholder="Password">
+      <button>Sign Up</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 The Brain Gallery</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
